@@ -1,13 +1,12 @@
 nav ul li {
   display: inline-block;
-  color: #9b3925;
   font-family: 'Josefin Slab', serif;
   margin: 10px 20px 8px 20px;
   font-weight: bolder;
   font-size: 30px;
 }
 nav {
-  background-color: #bac6db;
+  background-color: #9eb3d8;
   margin: -30px 0 0 0;
   text-align: center;
 }
@@ -15,20 +14,24 @@ nav {
     float: none;
     display:inline-block;
 }
+.nav-pills a {
+  color: #9b3925;
+}
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   background-color: #9b3925;
+  color: #9eb3d8;
 }
 .jumbotron {
   background-color: #9b3925;
   padding: 20px;
 }
-a {
+.jumbotron a {
   text-decoration: none;
 }
-h1 {
-  color: purple;
+.jumbotron h1 {
+  color: #9eb3d8;
   font-family: 'Josefin Slab', serif;
   font-weight: bold;
   font-size: 65px;
@@ -36,7 +39,7 @@ h1 {
   margin: 60px 0 0 0;
   text-align: center;
 }
-h2 {
+.jumbotron h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: lighter;
   color: #e0725c;
@@ -73,10 +76,11 @@ h3 {
   font-size: 30px;
   margin: 40px 0 0 0;
 }
-.active {
-  text-decoration: none;
-}
 .container {
   padding-right: 5px;
   padding-left: 5px;
+}
+#weather h1 {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }
