@@ -5,7 +5,7 @@
   <link href='css/bootstrap.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Raleway:200,300,400,700|Roboto:300,400" rel="stylesheet">
-  <script src= "js/jquery-3.2.1.m in.js"> </script>
+  <script src= "jquery-3.3.1.min.js"> </script>
 
 
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
@@ -14,8 +14,10 @@
   <div class='jumbotron'>
     <div class='container'>
       <a href='index.html'>
-        <h1 class='logo_area'>east london</h1>
-        <h2 class='logo_area'>a londerner's guide</h2>
+        <div class='logo_area'>
+          <h1 id='title'>east london</h1>
+          <h2 id='subtitle'>a londerner's guide</h2>
+        </div>
     </div>
   </div></a>
   <nav>
@@ -28,4 +30,17 @@
       </div>
   </nav>
   <h3> The locals' guide to East London restaurants </h3>
+
+<script>
+  $(".logo_area").mouseenter(function(){
+    $('#title').css("font-size","70px");
+    $('#subtitle').css("font-size","32px");
+    $('.jumbotron').css("padding","16px");
+  });
+  $(".logo_area").mouseleave(function(){
+    $('#title').css("font-size","65px");
+    $('#subtitle').css("font-size","30px");
+    $('.jumbotron').css("padding","20px");
+  });
+</script>
 </body>
