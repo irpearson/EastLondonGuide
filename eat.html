@@ -33,32 +33,49 @@
 
   <div id='eatsuggest'>
     <div class='container'>
-      <div class='row'>
-        <div class='col-sm-4'>
-          <h4>eat 1</h4>
+      <div class='row no-pad'>
+        <div class='col-sm-4' id='butchies'>
+          <h4 class='centered' id='butchies_title'>Butchies</h4>
+          <img class="img-eat" class="img-responsive" class="img-thumbnail" src='images/butchies.jpg'>
+        </div>
+        <div class='col-sm-4' id='dfmexico'>
+          <h4 class='centered' id='dfmexico_title'>DF/Mexico</h4>
+          <img class="img-eat" class="img-responsive" class="img-thumbnail" src='images/dfmexico.jpeg'>
         </div>
         <div class='col-sm-4'>
-          <h4>eat 2</h4>
-        </div>
-        <div class='col-sm-4'>
-          <h4>eat 3</h4>
+          <h4 class='centered'>Popolo</h4>
+          <img class="img-eat" class="img-responsive" class="img-thumbnail" src='images/popolo.jpg'>
         </div>
       </div>
-      <div class='row'>
+      <div class='row no-pad'>
         <div class='col-sm-4'>
-          <h4>eat 4</h4>
+          <h4 class='centered'>Smoking Goat</h4>
+          <img class="img-eat" class="img-responsive" class="img-thumbnail" src='images/smokinggoat.jpg'>
         </div>
         <div class='col-sm-4'>
-          <h4>eat 5</h4>
+          <h4 class='centered'>Fabrique</h4>
+          <img class="img-eat" class="img-responsive" class="img-thumbnail" src='images/fabrique.jpg'>
         </div>
         <div class='col-sm-4'>
-          <h4>eat 6</h4>
+          <h4 class='centered'>Dishoom</h4>
+          <img class="img-eat" class="img-responsive" class="img-thumbnail" src='images/dishoom.jpg'>
         </div>
       </div>
     </div>
   </div>
 
 <script>
+
+$('#butchies').hover(function(){
+  $('#butchies_title').fadeIn("fast");
+}, function() {
+  $('#butchies_title').fadeOut("fast");
+});
+$('#dfmexico').hover(function(){
+  $('#dfmexico_title').fadeIn("fast");
+}, function() {
+  $('#dfmexico_title').fadeOut("fast");
+});
 
 </script>
 
