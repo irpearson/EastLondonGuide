@@ -31,6 +31,11 @@ nav {
 }
 .jumbotron {
   background-color: #9b3925;
+  /* background-color: #BC452D; */
+  /* background-image: url('../images/oldbrick.jpg'); */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5; */
   padding: 10px;
 }
 .jumbotron a {
@@ -80,7 +85,8 @@ h3 {
   color: #ccd6e5;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  background-color: #4f89b5;
+  /* background-color: #4f89b5; */
+    background-color: #0B132B;
   padding: 30px;
   font-size: 30px;
   margin: 20px 0 0 0;
