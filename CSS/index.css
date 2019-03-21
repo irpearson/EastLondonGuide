@@ -103,7 +103,6 @@ h3 {
   object-fit: cover;
   width:380px;
   height:380px;
-
 }
 .row.no-pad {
   margin-right:0;
@@ -116,16 +115,13 @@ h3 {
   padding-bottom:2.5px;
   padding-top:2.5px;
 }
-/* .img-eat:hover {
-  opacity: 0.5;
-} */
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-h4 {
+#eatsuggest h4 {
   color: white;
   font-size: 40px;
 }
