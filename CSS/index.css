@@ -130,3 +130,8 @@ h4 {
   width:380px;
   height:380px;
 }
+.img-walk {
+  object-fit: cover;
+  width:380px;
+  height:380px;
+}
