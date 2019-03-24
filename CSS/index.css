@@ -121,7 +121,12 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-#eatsuggest h4 {
+h4 {
   color: white;
   font-size: 40px;
+}
+.img-shop {
+  object-fit: cover;
+  width:380px;
+  height:380px;
 }
