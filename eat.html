@@ -4,7 +4,7 @@
 <head>
   <title> East London Eat </title>
   <link href='css/bootstrap.css' rel='stylesheet'>
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="CSS/index.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Raleway:200,300,400,700|Roboto:300,400" rel="stylesheet">
 
 
@@ -35,21 +35,21 @@
   <div id='eatsuggest'>
     <div class='container'>
       <div class='row no-pad'>
-        <div class='col-sm-4' id='butchies'>
+        <div class='col-sm-4 square' id='butchies'>
           <h4 class='centered fadeText' id='butchies_title'>Butchies</h4>
           <img id='butchies_image' class="img-eat" class="img-responsive" src='images/butchies.jpg'>
         </div>
-        <div class='col-sm-4' id='dfmexico'>
+        <div class='col-sm-4 square' id='dfmexico'>
           <h4 class='centered fadeText' id='dfmexico_title'>DF/Mexico</h4>
           <img class="img-eat" class="img-responsive" src='images/dfmexico.jpeg'>
         </div>
-        <div class='col-sm-4' id='popolo'>
+        <div class='col-sm-4 square' id='popolo'>
           <h4 class='centered fadeText' id='popolo_title'>Popolo</h4>
           <img class="img-eat" class="img-responsive" src='images/popolo.jpg'>
         </div>
       </div>
       <div class='row no-pad'>
-        <div class='col-sm-4' id='smokinggoat'>
+        <div class='col-sm-4 square' id='smokinggoat'>
           <h4 class='centered fadeText' id='smokinggoat_title'>Smoking Goat</h4>
           <img class="img-eat" class="img-responsive" src='images/smokinggoat.jpg'>
         </div>
@@ -57,7 +57,7 @@
           <h4 class='centered fadeText' id='fabrique_title'>Fabrique</h4>
           <img class="img-eat" class="img-responsive" src='images/fabrique.jpg'>
         </div>
-        <div class='col-sm-4' id='dishoom'>
+        <div class='col-sm-4 square' id='dishoom'>
           <h4 class='centered fadeText' id='dishoom_title'>Dishoom</h4>
           <img class="img-eat" class="img-responsive" src='images/dishoom.jpg'>
         </div>
@@ -67,42 +67,42 @@
 
   <script src="jquery-3.3.1.min.js"> </script>
   <script>
-    $(document).ready(() => {
-      $('h4').hide()
-    });
+    // $(document).ready(() => {
+    //   $('h4').hide()
+    // });
 
-    $('#butchies').hover(function() {
-      $('#butchies_title').stop().fadeIn("fast");
-      $('#butchies_image').stop().fadeOut("slow");
-    }, function() {
-      $('#butchies_title').stop().fadeOut("fast");
-      $('#butchies_image').stop().fadeIn("slow");
-    });
-    $('#dfmexico').hover(function() {
-      $('#dfmexico_title').fadeIn("fast");
-    }, function() {
-      $('#dfmexico_title').fadeOut("fast");
-    });
-    $('#popolo').hover(function() {
-      $('#popolo_title').fadeIn("fast");
-    }, function() {
-      $('#popolo_title').fadeOut("fast");
-    });
-    $('#smokinggoat').hover(function() {
-      $('#smokinggoat_title').fadeIn("fast");
-    }, function() {
-      $('#smokinggoat_title').fadeOut("fast");
-    });
-    $('#fabrique').hover(function() {
-      $('#fabrique_title').fadeIn("fast");
-    }, function() {
-      $('#fabrique_title').fadeOut("fast");
-    });
-    $('#dishoom').hover(function() {
-      $('#dishoom_title').fadeIn("fast");
-    }, function() {
-      $('#dishoom_title').fadeOut("fast");
-    });
+    // $('#butchies').hover(function() {
+    //   $('#butchies_title').stop().fadeIn("fast");
+    //   $('#butchies_image').stop().fadeOut("slow");
+    // }, function() {
+    //   $('#butchies_title').stop().fadeOut("fast");
+    //   $('#butchies_image').stop().fadeIn("slow");
+    // });
+    // $('#dfmexico').hover(function() {
+    //   $('#dfmexico_title').fadeIn("fast");
+    // }, function() {
+    //   $('#dfmexico_title').fadeOut("fast");
+    // });
+    // $('#popolo').hover(function() {
+    //   $('#popolo_title').fadeIn("fast");
+    // }, function() {
+    //   $('#popolo_title').fadeOut("fast");
+    // });
+    // $('#smokinggoat').hover(function() {
+    //   $('#smokinggoat_title').fadeIn("fast");
+    // }, function() {
+    //   $('#smokinggoat_title').fadeOut("fast");
+    // });
+    // $('#fabrique').hover(function() {
+    //   $('#fabrique_title').fadeIn("fast");
+    // }, function() {
+    //   $('#fabrique_title').fadeOut("fast");
+    // });
+    // $('#dishoom').hover(function() {
+    //   $('#dishoom_title').fadeIn("fast");
+    // }, function() {
+    //   $('#dishoom_title').fadeOut("fast");
+    // });
   </script>
 
 </body>
