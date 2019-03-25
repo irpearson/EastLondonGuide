@@ -134,3 +134,20 @@ h4 {
   width:380px;
   height:380px;
 }
+.square img {
+  opacity: 1;
+  transition: opacity .25s ease;
+  -webkit-transition: opacity .25s ease;
+}
+.square:hover img {
+  border: 1px solid red;
+  opacity: 0.1;
+}
+.square .fadeText {
+  opacity: 0;
+  transition: opacity .25s ease;
+  -webkit-transition: opacity .25s ease;
+}
+.square:hover .fadeText {
+  opacity: 1;
+}
