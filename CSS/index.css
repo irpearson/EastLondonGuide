@@ -14,13 +14,11 @@ nav {
   background-color: #9eb3d8;
   margin: 100px 0 0 0;
   text-align: center;
+
 }
 footer ul li {
-  /*display: inline-block;*/
   font-family: 'Josefin Slab', serif;
-  /*margin: 10px 20px 8px 20px;*/
   font-weight: bolder;
-  font-size: 30px;
 }
 .nav-pills > li {
     float: none;
@@ -98,4 +96,8 @@ h3 {
 }
 .form{
   text-align:center;
+}
+submit{
+  background-color: #9b3925;
+
 }
