@@ -82,14 +82,13 @@ body {
   font-size: 15px;
 }
 h3 {
-  color: #ccd6e5;
+  color: #0B132B;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-  /* background-color: #4f89b5; */
-    background-color: #0B132B;
   padding: 30px;
   font-size: 30px;
   margin: 20px 0 0 0;
+  margin-left: 120px;
 }
 .container {
   padding-right: 5px;
