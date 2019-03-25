@@ -96,8 +96,11 @@ h3 {
 }
 .form{
   text-align:center;
-}
-submit{
-  background-color: #9b3925;
+  font-family: 'Josefin Slab', serif;
 
+}
+
+.btn{
+  background-color: #9b3925;
+  border:0px solid transparent;
 }
