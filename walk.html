@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title> East London Walk </title>
   <link href='css/bootstrap.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Raleway:200,300,400,700|Roboto:300,400" rel="stylesheet">
-  <script src= "jquery-3.3.1.min.js"> </script>
+  <script src="jquery-3.3.1.min.js"> </script>
 
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 </head>
+
 <body>
   <div class='jumbotron'>
     <div class='container'>
@@ -17,16 +19,16 @@
           <h1 id='title'>east london</h1>
           <h2 id='subtitle'>a londerner's guide</h2>
         </div>
-    </a></div>
+      </a></div>
   </div>
   <nav>
-      <div class='container'>
-        <ul class="nav nav-pills">
-          <li role="presentation"><a href="eat.html">eat</a></li>
-          <li role="presentation"><a href="shop.html">shop</a></li>
-          <li role="presentation" class="active"><a href="walk.html">walk</a></li>
-        </ul>
-      </div>
+    <div class='container'>
+      <ul class="nav nav-pills">
+        <li role="presentation"><a href="eat.html">eat</a></li>
+        <li role="presentation"><a href="shop.html">shop</a></li>
+        <li role="presentation" class="active"><a href="walk.html">walk</a></li>
+      </ul>
+    </div>
   </nav>
   <h3> The locals' guide to East London walks </h3>
 
@@ -35,11 +37,11 @@
       <div class='row no-pad'>
         <div class='col-sm-4' id='canal'>
           <h4 class='centered' id='canal_title'>Regent's Canal</h4>
-          <img id='canal_image' class="img-walk" class="img-responsive"  src='images/canal.jpg'>
+          <img id='canal_image' class="img-walk" class="img-responsive" src='images/canal.jpg'>
         </div>
         <div class='col-sm-4' id='stdunstans'>
           <h4 class='centered' id='stdunstans_title'>St Dunstan</h4>
-          <img class="img-walk" class="img-responsive"  src='images/stdunstan.jpg'>
+          <img class="img-walk" class="img-responsive" src='images/stdunstan.jpg'>
         </div>
         <div class='col-sm-4' id='farm'>
           <h4 class='centered' id='farm_title'>Hackney City Farm</h4>
@@ -49,57 +51,56 @@
       <div class='row no-pad'>
         <div class='col-sm-4' id='olympic'>
           <h4 class='centered' id='olympic_title'>Queen Elizabeth Olympic Park</h4>
-          <img class="img-walk" class="img-responsive"  src='images/olympic.jpg'>
+          <img class="img-walk" class="img-responsive" src='images/olympic.jpg'>
         </div>
         <div class='col-sm-4' id='victoria'>
           <h4 class='centered' id='victoria_title'>Victoria Park</h4>
-          <img class="img-walk" class="img-responsive"  src='images/victoria.png'>
+          <img class="img-walk" class="img-responsive" src='images/victoria.png'>
         </div>
         <div class='col-sm-4' id='postmans'>
           <h4 class='centered' id='postmans_title'>Postman's Park</h4>
-          <img class="img-walk" class="img-responsive"  src='images/postmans.jpg'>
+          <img class="img-walk" class="img-responsive" src='images/postmans.jpg'>
         </div>
       </div>
     </div>
   </div>
 
-<script src= "jquery-3.3.1.min.js"> </script>
-<script>
-  $(document).ready(() => {
-    $('h4').hide()
-  });
+  <script src="jquery-3.3.1.min.js"> </script>
+  <script>
+    $(document).ready(() => {
+      $('h4').hide()
+    });
 
-  $('#canal').hover(function(){
-    $('#canal_title').fadeIn("fast");
-  }, function() {
-    $('#canal_title').fadeOut("fast");
-  });
-  $('#stdunstans').hover(function(){
-    $('#stdunstans_title').fadeIn("fast");
-  }, function() {
-    $('#stdunstans_title').fadeOut("fast");
-  });
-  $('#farm').hover(function(){
-    $('#farm_title').fadeIn("fast");
-  }, function() {
-    $('#farm_title').fadeOut("fast");
-  });
-  $('#olympic').hover(function(){
-    $('#olympic_title').fadeIn("fast");
-  }, function() {
-    $('#olympic_title').fadeOut("fast");
-  });
-  $('#victoria').hover(function(){
-    $('#victoria_title').fadeIn("fast");
-  }, function() {
-    $('#victoria_title').fadeOut("fast");
-  });
-  $('#postmans').hover(function(){
-    $('#postmans_title').fadeIn("fast");
-  }, function() {
-    $('#postmans_title').fadeOut("fast");
-  });
-
-</script>
+    $('#canal').hover(function() {
+      $('#canal_title').fadeIn("fast");
+    }, function() {
+      $('#canal_title').fadeOut("fast");
+    });
+    $('#stdunstans').hover(function() {
+      $('#stdunstans_title').fadeIn("fast");
+    }, function() {
+      $('#stdunstans_title').fadeOut("fast");
+    });
+    $('#farm').hover(function() {
+      $('#farm_title').fadeIn("fast");
+    }, function() {
+      $('#farm_title').fadeOut("fast");
+    });
+    $('#olympic').hover(function() {
+      $('#olympic_title').fadeIn("fast");
+    }, function() {
+      $('#olympic_title').fadeOut("fast");
+    });
+    $('#victoria').hover(function() {
+      $('#victoria_title').fadeIn("fast");
+    }, function() {
+      $('#victoria_title').fadeOut("fast");
+    });
+    $('#postmans').hover(function() {
+      $('#postmans_title').fadeIn("fast");
+    }, function() {
+      $('#postmans_title').fadeOut("fast");
+    });
+  </script>
 
 </body>
