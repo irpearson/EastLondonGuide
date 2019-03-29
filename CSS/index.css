@@ -178,4 +178,10 @@ h3 {
 }
 .fadeText h4 {
     font-size: 40px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+.fadeText h5 {
+  font-size: 20px;
+  padding: 10px;
 }
