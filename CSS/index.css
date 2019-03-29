@@ -14,12 +14,20 @@ nav {
 #footer {
   background-color: #9eb3d8;
   margin: 100px 0 0 0;
+  /* text-align: center; */
+  text-align: left;
+}
+nav #footer {
+  border-top: 4px solid #899ab7;
   text-align: center;
 }
-footer ul li {
+#footer a {
+  text-decoration: none;
+}
+#footer ul li {
   /*display: inline-block;*/
   font-family: 'Josefin Slab', serif;
-  /*margin: 10px 20px 8px 20px;*/
+  /* margin: 10px 20px 8px 20px; */
   font-weight: bolder;
   font-size: 30px;
 }
@@ -61,6 +69,14 @@ footer ul li {
   letter-spacing: 4px;
   margin: 45px 0 0 0;
   text-align: center;
+}
+.logo_area {
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+.logo_area img {
+  width: 35%;
 }
 .logo_area:hover {
   transform: scale(1.03);
@@ -132,10 +148,6 @@ h3 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-h4 {
-  color: white;
-  font-size: 40px;
-}
 .img-shop {
   object-fit: cover;
   width:380px;
@@ -148,18 +160,44 @@ h4 {
 }
 .square img {
   opacity: 1;
-  transition: opacity .25s ease;
-  -webkit-transition: opacity .25s ease;
+  transition: opacity .40s ease;
+  -webkit-transition: opacity .40s ease;
 }
 .square:hover img {
-  border: 1px solid red;
   opacity: 0.1;
 }
 .square .fadeText {
   opacity: 0;
-  transition: opacity .25s ease;
-  -webkit-transition: opacity .25s ease;
+  transition: opacity .40s ease;
+  -webkit-transition: opacity .40s ease;
+  color: #0B132B;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 0 100px 0;
 }
 .square:hover .fadeText {
   opacity: 1;
+}
+.checked {
+  color: #0B132B;
+}
+.glyphicon {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  opacity: 0;
+  transition: opacity .25s ease;
+  -webkit-transition: opacity .25s ease;
+}
+.square:hover .glyphicon {
+  opacity: 1;
+}
+.fadeText h4 {
+    font-size: 36px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+.fadeText h5 {
+  font-size: 20px;
+  padding: 10px;
 }
