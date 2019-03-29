@@ -35,31 +35,79 @@
   <div id='shopsuggest'>
     <div class='container'>
       <div class='row no-pad'>
-        <div class='col-sm-4' id='labourandwait'>
-          <h4 class='centered' id='labourandwait_title'>Labour & Wait</h4>
-          <img id='labour_image' class="img-shop" class="img-responsive" src='images/labour.jpg'>
+        <div class='col-sm-4 square' id='labourandwait'>
+          <img class="img-shop" class="img-responsive" src='images/labour.jpg'>
+          <div class='centered fadeText' id='text-block'>
+            <h4>LABOUR & WAIT</h4>
+            <h5> Timeless, Functional Products for Daily Life </h5>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+          </div>
         </div>
-        <div class='col-sm-4' id='flowermarket'>
-          <h4 class='centered' id='flowermarket_title'>Columbia Road</h4>
+        <div class='col-sm-4 square' id='flowermarket'>
           <img class="img-shop" class="img-responsive" src='images/flowermarket.jpg'>
+          <div class='centered fadeText' id='text-block'>
+            <h4>COLUMBIA ROAD</h4>
+            <h5> Plant paradise in East London </h5>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+          </div>
         </div>
-        <div class='col-sm-4' id='aesop'>
-          <h4 class='centered' id='aesop_title'>Aesop</h4>
+        <div class='col-sm-4 square' id='aesop'>
           <img class="img-shop" class="img-responsive" src='images/aesop.jpg'>
+          <div class='centered fadeText' id='text-block'>
+            <h4>AESOP</h4>
+            <h5> Plant-based and laboratory-made quality skincare </h5>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+          </div>
         </div>
       </div>
       <div class='row no-pad'>
-        <div class='col-sm-4' id='cubitts'>
-          <h4 class='centered' id='cubitts_title'>Cubitts</h4>
+        <div class='col-sm-4 square' id='cubitts'>
           <img class="img-shop" class="img-responsive" src='images/cubitts.jpeg'>
+          <div class='centered fadeText' id='text-block'>
+            <h4>CUBITTS</h4>
+            <h5> Handmade, modern spectacles and sunglasses </h5>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+          </div>
         </div>
-        <div class='col-sm-4' id='sneakers'>
-          <h4 class='centered' id='sneakers_title'>Sneakersnstuff</h4>
+        <div class='col-sm-4 square' id='sneakers'>
           <img class="img-shop" class="img-responsive" src='images/sneakers.jpg'>
+          <div class='centered fadeText' id='text-block'>
+            <h4>SNEAKERSNSTUFF</h4>
+            <h5> Sneakers & streetwear online since 1999 </h5>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+          </div>
         </div>
-        <div class='col-sm-4' id='broadway'>
-          <h4 class='centered' id='broadway_title'>Broadway Market</h4>
+        <div class='col-sm-4 square' id='broadway'>
           <img class="img-shop" class="img-responsive" src='images/broadway.jpg'>
+          <div class='centered fadeText' id='text-block'>
+            <h4>BROADWAY MARKET</h4>
+            <h5> A working victorian street market </h5>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+            <span class="glyphicon glyphicon-star-empty"></span>
+          </div>
         </div>
       </div>
     </div>
@@ -68,40 +116,40 @@
 
   <script src="jquery-3.3.1.min.js"> </script>
   <script>
-    $(document).ready(() => {
-      $('h4').hide()
-    });
-
-    $('#labourandwait').hover(function() {
-      $('#labourandwait_title').fadeIn("fast");
-    }, function() {
-      $('#labourandwait_title').fadeOut("fast");
-    });
-    $('#flowermarket').hover(function() {
-      $('#flowermarket_title').fadeIn("fast");
-    }, function() {
-      $('#flowermarket_title').fadeOut("fast");
-    });
-    $('#aesop').hover(function() {
-      $('#aesop_title').fadeIn("fast");
-    }, function() {
-      $('#aesop_title').fadeOut("fast");
-    });
-    $('#cubitts').hover(function() {
-      $('#cubitts_title').fadeIn("fast");
-    }, function() {
-      $('#cubitts_title').fadeOut("fast");
-    });
-    $('#sneakers').hover(function() {
-      $('#sneakers_title').fadeIn("fast");
-    }, function() {
-      $('#sneakers_title').fadeOut("fast");
-    });
-    $('#broadway').hover(function() {
-      $('#broadway_title').fadeIn("fast");
-    }, function() {
-      $('#broadway_title').fadeOut("fast");
-    });
+    // $(document).ready(() => {
+    //   $('h4').hide()
+    // });
+    //
+    // $('#labourandwait').hover(function() {
+    //   $('#labourandwait_title').fadeIn("fast");
+    // }, function() {
+    //   $('#labourandwait_title').fadeOut("fast");
+    // });
+    // $('#flowermarket').hover(function() {
+    //   $('#flowermarket_title').fadeIn("fast");
+    // }, function() {
+    //   $('#flowermarket_title').fadeOut("fast");
+    // });
+    // $('#aesop').hover(function() {
+    //   $('#aesop_title').fadeIn("fast");
+    // }, function() {
+    //   $('#aesop_title').fadeOut("fast");
+    // });
+    // $('#cubitts').hover(function() {
+    //   $('#cubitts_title').fadeIn("fast");
+    // }, function() {
+    //   $('#cubitts_title').fadeOut("fast");
+    // });
+    // $('#sneakers').hover(function() {
+    //   $('#sneakers_title').fadeIn("fast");
+    // }, function() {
+    //   $('#sneakers_title').fadeOut("fast");
+    // });
+    // $('#broadway').hover(function() {
+    //   $('#broadway_title').fadeIn("fast");
+    // }, function() {
+    //   $('#broadway_title').fadeOut("fast");
+    // });
   </script>
 
 </body>
