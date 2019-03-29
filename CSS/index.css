@@ -144,16 +144,16 @@ h3 {
 }
 .square img {
   opacity: 1;
-  transition: opacity .25s ease;
-  -webkit-transition: opacity .25s ease;
+  transition: opacity .40s ease;
+  -webkit-transition: opacity .40s ease;
 }
 .square:hover img {
   opacity: 0.1;
 }
 .square .fadeText {
   opacity: 0;
-  transition: opacity .25s ease;
-  -webkit-transition: opacity .25s ease;
+  transition: opacity .40s ease;
+  -webkit-transition: opacity .40s ease;
   color: #0B132B;
   font-size: 35px;
   text-align: center;
