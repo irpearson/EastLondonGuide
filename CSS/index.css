@@ -99,8 +99,29 @@ h3 {
   font-family: 'Josefin Slab', serif;
 
 }
+form label{
+  font-family: 'Raleway', sans-serif;
+  padding:5px 0 0 0;
+
+}
+form input{
+  font-family: 'Raleway', sans-serif;
+  background-color: #9b3925;
+}
+.form-control:focus{
+  border-color: #9b3925;
+  padding:5px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.has-error .form-control:focus{
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
 
 .btn{
   background-color: #9b3925;
   border:0px solid transparent;
+  margin:15px 0 0 0;
+
 }
