@@ -99,6 +99,11 @@ body {
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
 }
+#form-title {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  padding:20px 0 0 0;
+}
 #top_rated {
   padding: 20px;
 }
@@ -118,10 +123,15 @@ h3 {
   margin: 20px 0 0 0;
   margin-left: 120px;
 }
+#people-h3
+{
+  margin:0;
+}
 .container {
   padding-right: 5px;
   padding-left: 5px;
 }
+
 #weather h1 {
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
@@ -201,3 +211,36 @@ h3 {
   font-size: 20px;
   padding: 10px;
 }
+.form{
+  text-align:center;
+  font-family: 'Josefin Slab', serif;
+
+ }
+form label{
+  font-family: 'Raleway', sans-serif;
+  padding:5px 0 0 0;
+
+ }
+form input{
+  font-family: 'Raleway', sans-serif;
+  background-color: #9b3925;
+}
+.form-control:focus{
+  border-color: #9b3925;
+  padding:5px;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.has-error .form-control:focus{
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+ .btn{
+  background-color: #9b3925;
+  border:0px solid transparent;
+  margin:15px 0 0 0;
+
+ .img-eat {	.img-eat {
+  object-fit: cover;	  object-fit: cover;
+  width:380px;	  width:380px;
