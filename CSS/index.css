@@ -14,11 +14,22 @@ nav {
   background-color: #9eb3d8;
   margin: 100px 0 0 0;
   text-align: center;
-
 }
+<<<<<<< HEAD
 footer ul li {
   font-family: 'Josefin Slab', serif;
   font-weight: bolder;
+=======
+#footer a {
+  text-decoration: none;
+}
+#footer ul li {
+  /*display: inline-block;*/
+  font-family: 'Josefin Slab', serif;
+  /* margin: 10px 20px 8px 20px; */
+  font-weight: bolder;
+  font-size: 30px;
+>>>>>>> parent of b142249... Merge pull request #11 from irpearson/Daisy
 }
 .nav-pills > li {
     float: none;
@@ -94,6 +105,7 @@ h3 {
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
 }
+<<<<<<< HEAD
 .form{
   text-align:center;
   font-family: 'Josefin Slab', serif;
@@ -124,4 +136,80 @@ form input{
   border:0px solid transparent;
   margin:15px 0 0 0;
 
+=======
+.img-eat {
+  object-fit: cover;
+  width:380px;
+  height:380px;
+}
+.row.no-pad {
+  margin-right:0;
+  margin-left:0;
+
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:0;
+  padding-left:0;
+  padding-bottom:2.5px;
+  padding-top:2.5px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-shop {
+  object-fit: cover;
+  width:380px;
+  height:380px;
+}
+.img-walk {
+  object-fit: cover;
+  width:380px;
+  height:380px;
+}
+.square img {
+  opacity: 1;
+  transition: opacity .40s ease;
+  -webkit-transition: opacity .40s ease;
+}
+.square:hover img {
+  opacity: 0.1;
+}
+.square .fadeText {
+  opacity: 0;
+  transition: opacity .40s ease;
+  -webkit-transition: opacity .40s ease;
+  color: #0B132B;
+  font-size: 35px;
+  text-align: center;
+  margin: 0 0 100px 0;
+}
+.square:hover .fadeText {
+  opacity: 1;
+}
+.checked {
+  color: #0B132B;
+}
+.glyphicon {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  opacity: 0;
+  transition: opacity .25s ease;
+  -webkit-transition: opacity .25s ease;
+}
+.square:hover .glyphicon {
+  opacity: 1;
+}
+.fadeText h4 {
+    font-size: 36px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+}
+.fadeText h5 {
+  font-size: 20px;
+  padding: 10px;
+>>>>>>> parent of b142249... Merge pull request #11 from irpearson/Daisy
 }
