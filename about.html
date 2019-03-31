@@ -34,10 +34,9 @@
       </ul>
     </div>
   </nav>
-
-  <div id='people'>
+  <!-- <div id='people'>
     <div class='container'>
-      <p id='top_rated_title'>Who we are</p>
+      <p id='top_rated_title'>Who are we?</p>
       <div class='row'>
         <div class='col-sm-4'>
           <p>Person 1</p>
@@ -45,7 +44,7 @@
         </div>
         <div class='col-sm-4'>
           <p>Person 2</p>
-          <img class="img-responsive" src='images/person.png'>
+          <img class="img-responsive" src='images/daisy.jpg' class="rounded-circle">
         </div>
         <div class='col-sm-4'>
           <p>Person 3</p>
@@ -53,35 +52,74 @@
         </div>
       </div>
     </div>
+  </div> -->
+
+
+  <div class='container'>
+    <h3 id='people-h3'>Who are we?</h3>
+
+    <div class='row no-pad'>
+      <div class='col-sm-4 square'>
+        <img class="img-responsive" src='images/person.png'>
+        <div class='centered fadeText' id='text-block'>
+          <h4>NAME</h4>
+          <h5> Here is a thing about this person </h5>
+        </div>
+      </div>
+      <div class='col-sm-4 square'>
+        <img class="img-responsive" src='images/daisy.jpg' class="rounded-circle">
+        <div class='centered fadeText' id='text-block'>
+          <h4>NAME</h4>
+          <h5> Thing about this person</h5>
+        </div>
+      </div>
+      <div class='col-sm-4 square'>
+        <img class="img-responsive" src='images/person.png'>
+        <div class='centered fadeText' id='text-block'>
+          <h4>NAME</h4>
+          <h5> Something about this person </h5>
+
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="container">
-    <p> Test of own form </p>
-    <form>
-      <div>
-        <label for="name">Name of submission</label>
-        <input type="name" class="form-control" placeholder="What is the name of your submission?">
+    <div class='row'>
+      <div class='col-sm-3'>
       </div>
-      <label for="radio">Type of submission</label>
-      <div class="radio">
-        <label><input type="radio" name="optradio" checked>Eat</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="optradio">Shop</label>
-      </div>
-      <div class="radio">
-        <label><input type="radio" name="optradio">Walk</label>
-      </div>
-      <div>
-        <label for="Description">Description of your submission</label>
-        <input type="text" class="form-control" placeholder="Please write a short description of your submission">
-      </div>
-      <div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    </form>
-  </div>
+      <div class='col-sm-6'>
+        <p id='form-title'> Get in touch! </p>
+        <p> Have a submission to make? Please send in any suggestions for this site here.</p>
+        <form>
+          <div>
+            <label for="name">What would you like to suggest?</label>
+            <input type="name" class="form-control" placeholder="What is the name of your suggestion?">
+          </div>
+          <label for="radio">Type of suggestion</label>
+          <div class="radio">
+            <label><input type="radio" name="optradio" checked>Eat</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">Shop</label>
+          </div>
+          <div class="radio">
+            <label><input type="radio" name="optradio">Walk</label>
+          </div>
+          <div>
+            <label for="Description">Description of your suggestion</label>
+            <textarea class="form-control" class="form-control" placeholder="Please write a few words describing your suggestion" rows="5"></textarea>
 
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class='col-sm-3'>
+      </div>
+    </div>
+  </div>
   <nav>
     <div id="footer">
       <ul class="nav-pills">
