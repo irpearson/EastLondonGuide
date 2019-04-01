@@ -239,7 +239,11 @@ form input{
  .btn{
   background-color: #9b3925;
   border:0px solid transparent;
-  margin:15px 0 0 0;
+  margin:15px 0 0 0;}
+
+.portraits img {
+  height: 380px;
+}
 
  .img-eat {	.img-eat {
   object-fit: cover;	  object-fit: cover;
