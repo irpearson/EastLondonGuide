@@ -34,10 +34,9 @@
       </ul>
     </div>
   </nav>
-
-  <div id='people'>
+  <!-- <div id='people'>
     <div class='container'>
-      <p id='top_rated_title'>Who we are</p>
+      <p id='top_rated_title'>Who are we?</p>
       <div class='row'>
         <div class='col-sm-4'>
           <p>Person 1</p>
@@ -45,34 +44,91 @@
         </div>
         <div class='col-sm-4'>
           <p>Person 2</p>
-          <img class="img-responsive" src='images/person.png'>
-
+          <img class="img-responsive" src='images/daisy.jpg' class="rounded-circle">
         </div>
         <div class='col-sm-4'>
           <p>Person 3</p>
           <img class="img-responsive" src='images/person.png'>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <div class='container'>
+    <h3 id='people-h3'>Who are we?</h3>
+
+    <div class='row no-pad'>
+      <div class='col-sm-4 square portraits'>
+        <img class="img-responsive" src='images/izzi3.jpeg'>
+        <div class='centered fadeText' id='text-block'>
+          <h4>IZZI</h4>
+          <h5> Hi, I'm a foodie and love to find peaceful places in the city! </h5>
+        </div>
+      </div>
+      <div class='col-sm-4 square portraits'>
+        <img class="img-responsive" src='images/daisy.jpg' class="rounded-circle">
+        <div class='centered fadeText' id='text-block'>
+          <h4>DAISY</h4>
+          <h5> Hi, I love spending my weekends out and about wandering round London!</h5>
+        </div>
+      </div>
+      <div class='col-sm-4 square portraits'>
+        <img class="img-responsive" src='images/barb.jpg'>
+        <div class='centered fadeText' id='text-block'>
+          <h4>BARB</h4>
+          <h5> Hi, bottomless brunches and picnics in the park are my form of a perfect weekend! </h5>
 
         </div>
       </div>
     </div>
   </div>
 
-  <div>
-    <div class='container'>
-      <h1> Get in touch </h1>
-      <p> Have a submission to make to our site? We'd love to hear from you! </p>
+  <div class="container">
+    <div class='row'>
+      <div class='col-sm-3'>
+      </div>
+      <div class='col-sm-6'>
+        <p id='form-title'> Get in touch! </p>
+        <p> Have a submission to make? Please send in any suggestions for this site here.</p>
+        <form id='about-form'>
+          <div>
+            <label for="name">What would you like to suggest?</label>
+            <input type="name" class="form-control" placeholder="What is the name of your suggestion?">
+          </div>
+          <label for="radio">Type of suggestion</label>
+          <div id='about-radio'>
+            <div class="radio">
+              <label><input type="radio" name="optradio" checked>Eat</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Shop</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Walk</label>
+            </div>
+          </div>
+          <div>
+            <label for="Description">Description of your suggestion</label>
+            <textarea class="form-control" class="form-control" placeholder="Please write a few words describing your suggestion" rows="5"></textarea>
+
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class='col-sm-3'>
+      </div>
     </div>
   </div>
-  <div class="form">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfM2JxLHOZyZ0BzM0FawvEJQr6R4YgEc5BasE05-htfEg6qOw/viewform?embedded=true" width="1000" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
-    <nav>
-      <div id="footer">
-        <ul class="nav-pills">
-          <li role="presentation"><a href='about.html'>about</a></li>
-        </ul>
-      </div>
-    </nav>
+  <nav>
+    <div id="footer">
+      <ul class="nav-pills">
+        <li role="presentation"><a href='about.html'>about</a></li>
+      </ul>
+    </div>
+  </nav>
 
 </body>
 
