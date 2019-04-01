@@ -243,6 +243,8 @@ form input{
 
 .portraits img {
   height: 380px;
+  width: 380px;
+  object-fit: cover;
 }
 
  .img-eat {	.img-eat {
