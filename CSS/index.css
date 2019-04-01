@@ -355,6 +355,6 @@ textarea:focus::-webkit-input-placeholder { color:transparent; }
   margin-left: -120%;
 }
 
-#newsl input[type="submit"] {
+input[type="submit"] {
   margin-left: 35%;
 }
