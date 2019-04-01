@@ -134,6 +134,7 @@ h3 {
 
 #weather h1 {
   font-size: 25px;
+  color: #0B132B;
   font-family: 'Raleway', sans-serif;
 }
 .img-eat {
@@ -218,8 +219,31 @@ h3 {
  }
 #about-form label  {
   font-family: 'Raleway', sans-serif;
-  padding:10px 0 0 0;
+  padding:5px 0 0 0;
+}
 
+#newsl .labels {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  padding: 10px;
+  vertical-align: top;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+#newsl .columnTab {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+#newsl .check {
+ display: inline-block;
+ text-align: center;
+ padding-right: 20%;
+ margin-left: 10%;
  }
 /* form input{
   font-family: 'Raleway', sans-serif;
@@ -243,12 +267,18 @@ padding-left: 20px;
   border:0px solid transparent;
   margin:15px 0 0 0;}
 
+#newsl input[type="text"],input[type="email"] {
+  width: 150%;
+  margin-left: -120%;
+}
+
 .portraits img {
   height: 380px;
   width: 380px;
   object-fit: cover;
 }
 
- .img-eat {	.img-eat {
-  object-fit: cover;	  object-fit: cover;
-  width:380px;	  width:380px;
+ .img-eat {
+  object-fit: cover;
+  width:380px;
+}
