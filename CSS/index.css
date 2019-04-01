@@ -326,7 +326,7 @@ textarea:focus:-moz-placeholder { color:transparent; }
 textarea:focus::-webkit-input-placeholder { color:transparent; }
 
 
-.labels {
+#newsl .labels {
   display: inline-block;
   text-align: left;
   width: 40%;
@@ -336,25 +336,25 @@ textarea:focus::-webkit-input-placeholder { color:transparent; }
   margin-left: 10%;
 }
 
-.columnTab {
+#newsl .columnTab {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
   padding: 15px;
 }
 
-.check {
+#newsl .check {
  display: inline-block;
  text-align: center;
  padding-right: 20%;
  margin-left: 10%;
 }
 
-input[type="text"],input[type="email"] {
+#newsl input[type="text"],input[type="email"] {
   width: 150%;
   margin-left: -120%;
 }
 
-input[type="submit"] {
+#newsl input[type="submit"] {
   margin-left: 35%;
 }
